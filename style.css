@@ -2,7 +2,7 @@
 
 .Info{
 	text-align: center;
-	background-image:url(Images/Background1.JPG);
+	background-image:url(Images/Background1.jpg);
 	border: 300px;	
 	background-repeat: no-repeat;
 	width: 100%;
@@ -38,7 +38,7 @@
 .Projects{
 	font-family: Bahnschrift SemiBold SemiConden,Helvetica, Times New Roman;
 	text-align: center;
-	background-image:url(Images/bap.JPG);
+	background-image:url(Images/bap.jpg);
 	font-size: 20px;
 	line-height: 2em;
 	margin-top: 85vh;
