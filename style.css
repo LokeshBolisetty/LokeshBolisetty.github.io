@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.Info{
+	text-align: center;
+	background-image:url(Images/Background1.JPG);
+	border: 300px;	
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top:250px;
+	padding-bottom:250px;
+	font-family: Britannic Bold,Helvitica,Times New Roman;
+}
+.Info h1{
+	color: white;
+}
+.Info h2{
+	color: #F1C40F;
+}
+.one{
+	color: coral;
+	text-align: center; 
+	padding: 25px;
+	font-family: Bernard MT Condensed,Helvitica,Times New Roman;
+	}
+.About{
+	
+	color: #fff;
+	float: left;
+	width: 33.3%;
+	height: 85vh;
+	color: #fff;
+	padding: 100px;
+	background-color: #333;
+	border: 1px solid red;
+	box-sizing: border-box;
+}
+
+.Projects{
+	font-family: Bahnschrift SemiBold SemiConden,Helvetica, Times New Roman;
+	text-align: center;
+	background-image:url(Images/bap.JPG);
+	font-size: 20px;
+	line-height: 2em;
+	margin-top: 85vh;
+	padding-top:280px;
+	padding-bottom:280px;
+	background-repeat: no-repeat; 
+	color: #fff
+	;
+}
+.Skills{
+	font-family: Comic Sans MS,Helvetica,polo;
+	background-color: #FCF3CF;
+	padding:100px;
+	font-size: 25px;
+	text-align: center;
+}
+.abilities li:nth-child(odd)
+{
+	background:#82E0AA;
+}
+.abilities li:nth-child(even)
+{
+	background:#FFC300;
+}
+.copyright{
+	padding 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+/*.pictures{
+	float left;
+	width: 33.3%;
+	box-sizing: border-box;
+}*/
+.Contact{
+	text-align:  center;
+}
