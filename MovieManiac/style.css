@@ -1,22 +1,28 @@
-
 .introduction{
     padding-top: 1cm;
     text-align: center;
     color: #333;
 }
-.conatainer-padding{
-    padding-top:3cm;
-}
-.searchbutton{
-    align-self: center;
-}
-#search{
-    padding-left: 2cm;
-    width:70%;
+
+form {
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
     align-items: center;
-    height: 1cm;
+  }
+#search {
+  width: 60%;
 }
-#submit{
-    width:20%;
-    height: 1cm;
+#submit {
+  display: inline;
+}
+p{
+    text-align: center;
+    width: 80%;
+}
+.lister{
+    align-content: center;
 }

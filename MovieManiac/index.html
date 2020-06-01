@@ -59,20 +59,21 @@
       Search for any Movie
     </h3>
   </div>
-
-  <div class="searchbutton">
-    <input type="text" class="searchbutton" id="search" placeholder="Search" style="left: 2cm" ; />
+  <form action="javascript:void(0);" class="form-inline">
+  <!--<div class="searchbutton">-->
+    <input type="text" class="form-control" id="search" placeholder="Search" style="left: 2cm" ; />
     <button type="button" id="submit" onclick="Search()" class="btn btn-primary form-control">
       Search
     </button>
-  </div>
+  <!--</div>-->
+</form>
   <script>var input = document.getElementById('search');
     input.addEventListener('keyup', function (event) {
       if (event.keyCode === 13) {
         event.preventDefault();
         document.getElementById('submit').click();
       }
-    });</script> 
+    });</script>
   <div class="container-fluid">
     <div id="res"></div>
   </div>
