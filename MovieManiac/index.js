@@ -18,12 +18,15 @@ function movies(search) {
       //let movieitem= res;
       
       let movies = res.data.Search;
+      if(movies.Response==True){
       movies.forEach(movieitem => {
         
         document.getElementById('desc').innerHTML += `<div class="lister"><p>Title: ${movieitem.Title}<br>Year: ${movieitem.Year}<br>IMDb ID:${movieitem.imdbID}<br><button type="button" id=${movieitem.imdbID} onClick=Click(id) class="btn btn-primary form-control">View More</button><hr></p></div>`;
-      });
+      });}
       //document.getElementById('desc').innerHTML=`<p>Title: ${movieitem.data.Title}<br>Actors: ${movieitem.data.Actors}<br>IMDb Rating: ${movieitem.data.Ratings[0].Value}<br>Year of release: ${movieitem.data.Year}<br>Genre: ${movieitem.data.Genre}</p`;
-      showOutput(res);
+    else{
+      document.getElementById('desc).innerHTML=`<p style:"text-align"="center">Oops!!Movie not found. Please check for English Moives only and check the spelling.</p>
+           }
     })
     .catch((err) => {
       console.log(err);
