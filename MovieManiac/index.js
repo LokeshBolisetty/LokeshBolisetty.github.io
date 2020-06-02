@@ -25,7 +25,7 @@ function movies(search) {
       });}
       //document.getElementById('desc').innerHTML=`<p>Title: ${movieitem.data.Title}<br>Actors: ${movieitem.data.Actors}<br>IMDb Rating: ${movieitem.data.Ratings[0].Value}<br>Year of release: ${movieitem.data.Year}<br>Genre: ${movieitem.data.Genre}</p`;
     else{
-      document.getElementById('desc).innerHTML=`<p style:"text-align"="center">Oops!!Movie not found. Please check for English Moives only and check the spelling.</p>
+      document.getElementById('desc').innerHTML=`<p style:"text-align"="center">Oops!!Movie not found. Please check for English Moives only and check the spelling.</p>
            }
     })
     .catch((err) => {
