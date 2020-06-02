@@ -16,17 +16,17 @@ function movies(search) {
     .then((res) => {
       console.log(res);
       //let movieitem= res;
-      
+      if(res.data.Response=="True"){
       let movies = res.data.Search;
-      if(movies.Response==True){
       movies.forEach(movieitem => {
-        
+
         document.getElementById('desc').innerHTML += `<div class="lister"><p>Title: ${movieitem.Title}<br>Year: ${movieitem.Year}<br>IMDb ID:${movieitem.imdbID}<br><button type="button" id=${movieitem.imdbID} onClick=Click(id) class="btn btn-primary form-control">View More</button><hr></p></div>`;
       });}
+      else{
+        document.getElementById('desc').innerHTML=`<p style:"text-align"="center">Oops!! Movie not found. Try checking the spelling or search for another movie...</p>`
+      }
+      
       //document.getElementById('desc').innerHTML=`<p>Title: ${movieitem.data.Title}<br>Actors: ${movieitem.data.Actors}<br>IMDb Rating: ${movieitem.data.Ratings[0].Value}<br>Year of release: ${movieitem.data.Year}<br>Genre: ${movieitem.data.Genre}</p`;
-    else{
-      document.getElementById('desc').innerHTML=`<p style:"text-align"="center">Oops!!Movie not found. Please check for English Moives only and check the spelling.</p>
-           }
     })
     .catch((err) => {
       console.log(err);
