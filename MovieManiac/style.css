@@ -26,3 +26,33 @@ p{
 .lister{
     align-content: center;
 }
+button{
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  border: none;
+
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+li{
+  text-align: center;
+  list-style-type: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.desc{
+  padding-bottom: 2cm;
+}
+#clicker{
+  padding-bottom: 2cm;
+}
+table, th, td {
+  border: 1px solid black;
+}
