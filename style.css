@@ -18,6 +18,10 @@ html{
 .Info h2{
 	color: #F1C40F;
 }
+.flex-container {
+    display: flex;
+    justify-content: center;
+}  
 .card{
     image-resolution: 273px,183px;
     height: 28em;
