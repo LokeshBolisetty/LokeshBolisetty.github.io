@@ -53,12 +53,16 @@ html{
 	font-size: 20px;
 	line-height: 2em;
 	margin-top: 2vh;
-	padding-top:180px;
-	padding-bottom:180px;
+	padding-top:160px;
+	padding-bottom:160px;
 	background-repeat: no-repeat; 
 	color: #fff;
 }
 .Projects h4{
+	padding-left:0.5cm;
+	padding-right:0.5cm;
+}
+.Projects h2{
 	padding-left:0.5cm;
 	padding-right:0.5cm;
 }
