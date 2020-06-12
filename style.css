@@ -12,10 +12,10 @@ html{
 	padding-bottom:250px;
 	font-family: Britannic Bold,Helvitica,Times New Roman;
 }
-.Info h1{
+.Info h3{
 	color: white;
 }
-.Info h2{
+.Info h4{
 	color: #F1C40F;
 }
 .flex-container {
