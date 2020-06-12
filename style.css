@@ -55,10 +55,12 @@ html{
 	margin-top: 2vh;
 	padding-top:180px;
 	padding-bottom:180px;
-	border-left:0.5cm;
-	border-right:0.5cm
 	background-repeat: no-repeat; 
 	color: #fff;
+}
+.Projects h4{
+	padding-left:0.5cm;
+	padding-right:0.5cm;
 }
 .Skills{
 	font-family: Comic Sans MS,Helvetica,polo;
