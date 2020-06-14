@@ -1,0 +1,30 @@
+.myheader {
+  text-align: center;
+}
+
+.profilepic {
+  border-radius: 50%;
+}
+#about {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  image-resolution: 273px, 183px;
+  height: 28em;
+}
+#projects h1 {
+  margin-top: 0.75cm;
+  margin-bottom: 0.75cm;
+  text-align: center;
+}
+.carousel-inner h5 {
+  color: black;
+}
+.carousel-inner p {
+  color: black;
+}
