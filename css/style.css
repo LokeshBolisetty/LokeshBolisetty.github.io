@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Balsamiq+Sans:ital@1&family=Lobster&family=MuseoModerno&family=Oswald&family=Pacifico&family=Sriracha&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
 .myheader {
   text-align: center;
+}
+.myheader h1 {
+  font-family: "Acme", sans-serif;
+}
+.myheader p {
+  font-family: "Sriracha", cursive;
 }
 
 .profilepic {
@@ -11,11 +19,59 @@ html {
 #about {
   text-align: center;
 }
+#about h1 {
+  font-family: "Lobster", cursive;
+}
+#about p {
+  font-family: "Balsamiq Sans", cursive;
+}
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/*Skills*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #eee;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*Upto Here*/
 .card {
   image-resolution: 273px, 183px;
   height: 28em;
@@ -24,24 +80,31 @@ html {
   margin-top: 0.75cm;
   margin-bottom: 0.75cm;
   text-align: center;
+  font-family: "Sriracha", cursive;
 }
 .carousel-inner h5 {
   color: black;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
 }
 .carousel-inner p {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
 }
 .carousel-inner img {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 #contact {
   background-color: #eee;
   display: block;
   text-align: center;
-  margin-top: 0.5cm;
-  margin-bottom: 0.5cm;
+  padding-top: 0.5cm;
+  padding-bottom: 0.5cm;
+  font-family: "MuseoModerno", cursive;
+}
+#contact h1 {
+  font-family: "MuseoModerno", cursive;
 }
 .Skills {
   padding-top: 1cm;
@@ -59,13 +122,14 @@ html {
 }
 .Skills h1 {
   padding-bottom: 0.5cm;
+  font-family: "Pacifico", cursive;
 }
 .Skills img {
   height: 100px;
   /*display: flex;
   flex-direction: column;
   float: left;*/
-  padding-left: 0.3cm;
+  /*padding-left: 0.3cm;*/
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -80,6 +144,7 @@ html {
   /*filter: none;
   -webkit-filter: grayscale(0);*/
   -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .row {
   display: flex;
@@ -108,3 +173,10 @@ html {
   }
 }
 */
+.copyright {
+  height: 2 cm;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
