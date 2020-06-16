@@ -1,0 +1,93 @@
+/*body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.square-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.squarebutton {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.squarebutton:focus {
+  outline: none;
+}
+
+.kbd-navigation .squarebutton:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}*/
+.squarebutton {
+  background: #fff;
+  border: 4px solid tomato;
+  float: left;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 100px;
+  height: 100px;
+  margin-right: -4px;
+  margin-top: -4px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+.status {
+  margin: 30px;
+  font-size: 30px;
+}
+.squarebutton:active {
+  background: #fff;
+  border: 4px solid tomato;
+  float: left;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 100px;
+  height: 100px;
+  margin-right: -4px;
+  margin-top: -4px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+/*.square-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}*/
+.square-row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
